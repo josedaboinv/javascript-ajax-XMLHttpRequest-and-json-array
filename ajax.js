@@ -20,5 +20,5 @@ var idsr;
 		alert('this is my title: '+ data["title"] + ' and my number:' + data["id"]  );		
 		
 	};
-	xmlhttp.open("GET","php_response.php?idsr="+idsr,true);
+	xmlhttp.open("GET","response.php?idsr="+idsr,true);
 	xmlhttp.send();			
